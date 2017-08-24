@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jLabel3" min="-2" pref="130" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" pref="376" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jLabel2" pref="178" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jLabel1" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+          <Component id="jLabel2" alignment="1" max="32767" attributes="0"/>
+          <Component id="jLabel3" alignment="1" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&lt;html&gt;&lt;body&gt;&lt;h1&gt;&lt;font color=&quot;blue&quot;&gt;TRIGONOMETRIC IDENTITIES AND FORMULAS&lt;/FONT&gt;&#xa;&lt;/H1&gt;&lt;table border=&quot;2&quot; cell spacing=&quot;25&quot; cell padding=&quot;25&quot; align=&quot;center&quot;&gt;&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;&lt;font color=&quot;blue&quot;&gt;&lt;center&gt;Product to sum formulas&lt;/center&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&#xa;&lt;tr&gt;&lt;td&gt;sinu sinv=1/&lt;sub&gt;2&lt;/sub&gt;[cos(u-v)-cos(u+v)]&lt;/td&gt;&lt;td&gt;cosu cosv=1/&lt;sub&gt;2&lt;/sub&gt;[cos(u+v)+cos(u-v)]&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;sinu cosv=1/&lt;sub&gt;2&lt;/sub&gt;[sin(u+v)+sin(u-v)]&lt;/td&gt;&lt;td&gt;cosu sinv=1/&lt;sub&gt;2&lt;/sub&gt;[sin(u+v)-sin(u-v)]&lt;/td&gt;&lt;/tr&gt;&#xa;&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;&lt;font color=&quot;blue&quot;&gt;&lt;center&gt;Sum to product formulas&lt;/center&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&#xa;&lt;tr&gt;&lt;td&gt;sinu+sinv=2sin(u+v)/&lt;sub&gt;2&lt;/sub&gt;cos(u-v)/&lt;sub&gt;2&lt;/sub&gt;&lt;/td&gt;&lt;td&gt;sinu-sinv=2cos(u+v)/&lt;sub&gt;2&lt;/sub&gt;sin(u-v)/&lt;sub&gt;2&lt;/sub&gt;&lt;/td&gt;&lt;/tr&gt;&#xa;&lt;tr&gt;&lt;td&gt;cosu+cosv=2cos(u+v)/&lt;sub&gt;2&lt;/sub&gt;cos(u-v)/&lt;sub&gt;2&lt;/sub&gt;&lt;/td&gt;&lt;td&gt;cosu-cosv=-2sin(u+v)/&lt;sub&gt;2&lt;/sub&gt;sin(u-v)/&lt;sub&gt;2&lt;/sub&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;&lt;font color=&quot;blue&quot;&gt;&lt;center&gt;Power reducing formulas&lt;/center&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&#xa;&lt;tr&gt;&lt;td&gt;sin&lt;sup&gt;2&lt;/sup&gt;=(1-cos2u)/&lt;sub&gt;2&lt;/sub&gt;&lt;/td&gt;&lt;td&gt;cos&lt;sup&gt;2&lt;/sup&gt;=(1+cos2u)/&lt;sub&gt;2&lt;sub&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;tan&lt;sup&gt;2&lt;/sup&gt;=(1-cos2u)/&lt;sup&gt;(1+cos2u)&lt;/sup&gt;&lt;/td&gt;&lt;/tr&gt;&#xa;&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;&lt;font color=&quot;blue&quot;&gt;&lt;center&gt;Double angle formulas&lt;/center&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&#xa;&lt;tr&gt;&lt;td&gt;sin(2u)=2 sinu cosu&lt;/td&gt;&lt;td&gt;tan(2u)=2tanu/&lt;sub&gt;(1-tan&lt;sup&gt;2&lt;/sup&gt;u)&lt;/sub&gt;&lt;/td&gt;&lt;/tr&gt;&#xa;&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;cos(2u)=cos&lt;sup&gt;2&lt;/sup&gt;u-sin&lt;sup&gt;2&lt;/sup&gt;u=2cos&lt;sup&gt;2&lt;/sup&gt;u-1=1-2sin&lt;sup&gt;2&lt;/sup&gt;u&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;&lt;font color=&quot;blue&quot;&gt;&lt;center&gt;Sum-Difference formulas&lt;/center&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&#xa;&lt;tr&gt;&lt;td&gt;sin(u+&lt;sub&gt;-&lt;/sub&gt;v)=sinu cosv+&lt;sub&gt;-&lt;/sub&gt;cosu sinu&lt;/td&gt;&lt;td&gt;cos(u+&lt;sub&gt;-&lt;/sub&gt;v)=cosu cosv-&lt;sub&gt;+&lt;/sub&gt;sinu sinv&lt;/td&gt;&lt;/tr&gt;&#xa;&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;tan(u+&lt;sub&gt;-&lt;/sub&gt;v)=(tanu +&lt;sub&gt;-&lt;/sub&gt; tanv)&lt;sub&gt;(1-&lt;sub&gt;+&lt;/sub&gt;tanu tanv)&lt;/sub&gt;&lt;/td&gt;&lt;/tr&gt;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/Mathematics.jpg"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="mousePressed" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jLabel2MousePressed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel3">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/Mathematics.jpg"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="mousePressed" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jLabel3MousePressed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>

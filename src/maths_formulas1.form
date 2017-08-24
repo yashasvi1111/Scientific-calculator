@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.JLabel" name="jLabel6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="(a+b)^2=a^2+b^2+2ab"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel12">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="(a+b)^2=a^2+b^2+2ab"/>
+      </Properties>
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
+              <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="jButton2" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="46" max="-2" attributes="0"/>
+          </Group>
+          <Component id="jLabel14" alignment="1" pref="865" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+                      <Component id="jButton2" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jLabel14" max="32767" attributes="0"/>
+              <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JButton" name="jButton1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="36" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="home"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton2">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="36" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="GoBack"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton2ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel14">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="18" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="&lt;html&gt;&#xa;&lt;body&gt;&#xa;&lt;h1&gt;&lt;font color=&quot;blue&quot;&gt;MATHS FORMULAS&lt;/font&gt;&lt;/h1&gt;&#xa;&lt;UL type=&quot;bullet&quot;&gt;&#xa;&lt;LI&gt;(a+b)&lt;sup&gt;2&lt;/sup&gt;=a&lt;sup&gt;2&lt;/sup&gt;+b&lt;sup&gt;2&lt;/sup&gt;+2ab&lt;/LI&gt;&#xa;&lt;LI&gt;(a-b)&lt;sup&gt;2&lt;/sup&gt;=a&lt;sup&gt;2&lt;/sup&gt;+b&lt;sup&gt;2&lt;/sup&gt;-2ab&lt;/LI&gt;&#xa;&lt;LI&gt;a&lt;sup&gt;2&lt;/sup&gt;+b&lt;sup&gt;2&lt;/sup&gt;=(a+b)&lt;sup&gt;2&lt;/sup&gt;-2ab&lt;/LI&gt;&#xa;&lt;LI&gt;a&lt;sup&gt;2&lt;/sup&gt;-b&lt;sup&gt;2&lt;/sup&gt;=(a-b)(a+b)&lt;/LI&gt;&#xa;&lt;LI&gt;(a&lt;sup&gt;2&lt;/sup&gt;+b&lt;sup&gt;2&lt;/sup&gt;+c&lt;sup&gt;2&lt;/sup&gt;)=(a+b+c)&lt;sup&gt;2&lt;/sup&gt;-2(ab+bc+ca)&lt;/LI&gt;&lt;LI&gt;(a+b+c)&lt;sup&gt;2&lt;/sup&gt;=(a&lt;sup&gt;2&lt;/sup&gt;+b&lt;sup&gt;2&lt;/sup&gt;+c&lt;sup&gt;2&lt;/sup&gt;)+2(ab+bc+ca)&lt;/LI&gt;&#xa;&lt;LI&gt;2(ab+bc+ca)=(a+b+c)&lt;sup&gt;2&lt;/sup&gt;-(a&lt;sup&gt;2&lt;/sup&gt;+b&lt;sup&gt;2&lt;/sup&gt;+c&lt;sup&gt;2&lt;/sup&gt;)&lt;/LI&gt;&#xa;&lt;li&gt;(a+b)&lt;sup&gt;3&lt;/sup&gt;=a&lt;sup&gt;3&lt;/sup&gt;+b&lt;sup&gt;3&lt;/sup&gt;+3a&lt;sup&gt;2&lt;/sup&gt;b+3ab&lt;sup&gt;2&lt;/sup&gt;=a&lt;sup&gt;3&lt;/sup&gt;+b&lt;sup&gt;3&lt;/sup&gt;+3ab(a+b)&lt;/li&gt;&#xa;&lt;li&gt;(a-b)&lt;sup&gt;3&lt;/sup&gt;=a&lt;sup&gt;3&lt;/sup&gt;-b&lt;sup&gt;3&lt;/sup&gt;-3a&lt;sup&gt;2&lt;/sup&gt;b+3ab&lt;sup&gt;2&lt;/sup&gt;=a&lt;sup&gt;3&lt;/sup&gt;-b&lt;sup&gt;3&lt;/sup&gt;-3ab(a-b)&lt;/li&gt;&#xa;&lt;li&gt;a&lt;sup&gt;3&lt;/sup&gt;+b&lt;sup&gt;3&lt;/sup&gt;=(a+b)(a&lt;sup&gt;2&lt;/sup&gt;-ab+b&lt;sup&gt;2&lt;/sup&gt;=(a-b)&lt;sup&gt;3&lt;/sup&gt;-3a&lt;sup&gt;2&lt;/sup&gt;b-3ab&lt;sup&gt;2&lt;/sup&gt;&lt;/li&gt;&#xa;&lt;li&gt;a&lt;sup&gt;3&lt;/sup&gt;-b&lt;sup&gt;3&lt;/sup&gt;=(a-b)(a&lt;sup&gt;2&lt;/sup&gt;+ab+b&lt;sup&gt;2&lt;/sup&gt;=(a-b)&lt;sup&gt;3&lt;/sup&gt;+3a&lt;sup&gt;2&lt;/sup&gt;b-3ab&lt;sup&gt;2&lt;/sup&gt;&lt;/li&gt;&#xa;&lt;li&gt;(a+b+b+c)&lt;sup&gt;3&lt;/sup&gt;=a&lt;sup&gt;3&lt;/sup&gt;+b&lt;sup&gt;3&lt;/sup&gt;+c&lt;sup&gt;3&lt;/sup&gt;+3(a+b)(b+c)(c+a)&lt;/li&gt;&#xa;&lt;li&gt;a&lt;sup&gt;3&lt;/sup&gt;+b&lt;sup&gt;3&lt;/sup&gt;+c&lt;sup&gt;3&lt;/sup&gt;-3abc=(a+b+c)(a&lt;sup&gt;2&lt;/sup&gt;+b&lt;sup&gt;2&lt;/sup&gt;+c&lt;sup&gt;2&lt;/sup&gt;-ab-bc-ca)&lt;/li&gt;&#xa;&lt;li&gt;4ab=(a+b)&lt;sup&gt;2&lt;/sup&gt;-(a-b)&lt;sup&gt;2&lt;/sup&gt;&lt;/li&gt;&lt;li&gt;(x+a)(x+b)=x&lt;sup&gt;2&lt;/sup&gt;+(a+b)x+ab&lt;/li&gt;&lt;li&gt;(x+a)(x-b)=x&lt;sup&gt;2&lt;/sup&gt;+(a-b)x-ab&lt;/li&gt;&lt;li&gt;(x-a)(x+b)=x&lt;sup&gt;2&lt;/sup&gt;+(b-a)x-ab&lt;/li&gt;&lt;li&gt;(x-a)(x-b)=x&lt;sup&gt;2&lt;/sup&gt;-(a+b)x+ab&lt;/li&gt;&#xa;&lt;li&gt;(x+q)(x+p)(x+r)=x&lt;sup&gt;3&lt;/sup&gt;+(p+q+r)x&lt;sup&gt;2&lt;/sup&gt;+(pq+qr+rp)x+pqr&lt;/li&gt;&lt;li&gt;bc(b-c)+ca(c-a)+ab(a-b)=-(b-c)(c-a)(a-b)&lt;/li&gt;&#xa;&lt;li&gt;a&lt;sup&gt;2&lt;/sup&gt;(b-c)+b&lt;sup&gt;2&lt;/sup&gt;(c-a)+c&lt;sup&gt;2&lt;/sup&gt;(a-b)=-(a-b)(b-c)(c-a)&lt;/li&gt;&#xa;&lt;li&gt;a(b&lt;sup&gt;2&lt;/sup&gt;-c&lt;sup&gt;2&lt;/sup&gt;)+b(c&lt;sup&gt;2&lt;/sup&gt;-a&lt;sup&gt;2&lt;/sup&gt;)+c(a&lt;sup&gt;2&lt;/sup&gt;-b&lt;sup&gt;2&lt;/sup&gt;)=(a-b)(b-c)(c-a)&lt;/li&gt;&#xa;&lt;li&gt;a&lt;sup&gt;3&lt;/sup&gt;(b-c)+b&lt;sup&gt;3&lt;/sup&gt;(c-a)+c&lt;sup&gt;3&lt;/sup&gt;(a-b)=-(a-b)(b-c)(c-a)(a+b+c)&lt;/li&gt;&#xa;&#xa;&#xa;"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
